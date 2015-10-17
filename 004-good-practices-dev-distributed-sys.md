@@ -18,11 +18,14 @@ Canopsis, supervision opensource, centralise l'info et peut produire des rapport
 
 Archi:
 
+```
 Entrants ----> chaine de traintement ----> Restitution
                       ^                        ^
                       | 					   |
                       v 					   v
                 Architecture python <--------->BDD
+```
+
 
 Connecteurs (normalisation des données), github, facebook, source de données
 
@@ -40,11 +43,16 @@ On peut rajouter, suppr des moteurs
 
 Traitemetn métier:
 
+
+```
 Engine
   ^
   |
   v
 Manager <---> Configubale
+```
+
+
 (not enough time to write it up)
 
 Configurable <--- Middleware <-- Storage <---- ??
